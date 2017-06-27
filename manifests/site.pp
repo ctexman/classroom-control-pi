@@ -24,7 +24,7 @@
 node default {
   node default {
 #...
-notify { "Hello world! I am ${::fqdn}": }
+notify { "Hello world! I am ${::rev1}": }
 }
 
   include examples::puppetize
